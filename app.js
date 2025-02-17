@@ -16,5 +16,5 @@ app.set("view engine", "ejs")
  
 app.use("/owner",ownerRouter)
 app.use("/products",productRouter)
-app.use("/user",userRouter)
+app.use("/users",userRouter)
 app.listen(3000)
